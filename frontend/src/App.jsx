@@ -1,4 +1,6 @@
+
 import Navbar from "./components/Navbar/Navbar"
+import Home from "./pages/Home"
 
 function App() {
   return (
@@ -6,6 +8,7 @@ function App() {
       <Navbar />
 
       <main className="pt-[72px] lg:pt-[84px]">
+        <Home />
       </main>
     </>
   )
