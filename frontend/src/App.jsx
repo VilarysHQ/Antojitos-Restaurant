@@ -3,10 +3,11 @@ import { useReducedMotion } from "motion/react"
 
 import Navbar from "./components/Navbar/Navbar"
 import Home from "./pages/Home"
-import Menu from "./components/Menu/Menu"
+import Menu from "./pages/Menu"
 import Promotions from "./components/Promotions/Promotions"
 import CartDrawer from "./components/Menu/CartDrawer"
 import FloatingCartButton from "./components/Cart/FloatingCartButton"
+import Testimonials from "./components/Testimonials/Testimonials"
 import About from "./pages/About"
 
 import useCart from "./hooks/Menu/useCart"
@@ -57,6 +58,7 @@ function App() {
         reduceMotion={reduceMotion}
       />
       <About />
+      <Testimonials />
     </>
   )
 }

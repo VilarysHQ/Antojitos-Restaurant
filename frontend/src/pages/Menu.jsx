@@ -12,11 +12,11 @@ import {
   ShoppingBag,
 } from "lucide-react"
 
-import { menuProducts } from "../../data/Menu/menuData"
+import { menuProducts } from "../data/Menu/menuData"
 
-import MenuHeader from "../../components/Menu/MenuHeader"
-import MenuFilters from "../../components/Menu/MenuFilters"
-import MenuCarousel from "../../components/Menu/MenuCarousel"
+import MenuHeader from "../components/Menu/MenuHeader"
+import MenuFilters from "../components/Menu/MenuFilters"
+import MenuCarousel from "../components/Menu/MenuCarousel"
 
 export default function Menu({
   addProduct,
