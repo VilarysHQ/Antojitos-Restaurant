@@ -11,6 +11,7 @@ import Testimonials from "./components/Testimonials/Testimonials"
 import About from "./pages/About"
 import HowToOrder from "./components/HowToOrder/HowToOrder"
 import Contact from "./pages/Contact"
+import Footer from "./components/Footer/Footer"
 
 import useCart from "./hooks/Menu/useCart"
 
@@ -63,6 +64,7 @@ function App() {
       <Testimonials />
       <HowToOrder />
       <Contact />
+      <Footer />
     </>
   )
 }
