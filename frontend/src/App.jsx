@@ -7,6 +7,7 @@ import Menu from "./components/Menu/Menu"
 import Promotions from "./components/Promotions/Promotions"
 import CartDrawer from "./components/Menu/CartDrawer"
 import FloatingCartButton from "./components/Cart/FloatingCartButton"
+import About from "./pages/About"
 
 import useCart from "./hooks/Menu/useCart"
 
@@ -55,6 +56,7 @@ function App() {
         total={total}
         reduceMotion={reduceMotion}
       />
+      <About />
     </>
   )
 }
