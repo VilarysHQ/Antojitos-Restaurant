@@ -10,6 +10,7 @@ import FloatingCartButton from "./components/Cart/FloatingCartButton"
 import Testimonials from "./components/Testimonials/Testimonials"
 import About from "./pages/About"
 import HowToOrder from "./components/HowToOrder/HowToOrder"
+import Contact from "./pages/Contact"
 
 import useCart from "./hooks/Menu/useCart"
 
@@ -61,6 +62,7 @@ function App() {
       <About />
       <Testimonials />
       <HowToOrder />
+      <Contact />
     </>
   )
 }
